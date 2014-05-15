@@ -1,0 +1,21 @@
+{
+  "name": "TeachBoost Launcher",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Launch TeachBoost Google Apps with convenient browser buttons",
+  "homepage_url": "http://teachboost.com",
+  "icons": {
+    "16": "icons/tb-16.png",
+    "48": "icons/tb-48.png",
+    "128": "icons/tb-128.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "icons/tb-19.png",
+    "default_title": "TeachBoost Launcher",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

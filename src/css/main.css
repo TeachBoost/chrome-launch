@@ -1,0 +1,95 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", 
+        Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 15px 24px 20px;
+    border-bottom: 4px solid #007db6;
+    border-radius: 0 0 2px 2px;
+    width: 240px;
+    overflow: hidden;
+}
+#main {
+    padding: 0;
+    margin: 0;
+    width: 480px;
+    height: 215px;
+    position: relative;
+}
+#home,
+#others {
+    height: 175px;
+    width: 240px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+h1 {
+    color: #383838;
+    font-family: Signika, "Trebuchet MS", Tahoma, Verdana, 
+        Arial, Helvetica, sans-serif;;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    width: 240px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: #333;
+}
+.app {
+    display: block;
+    height: 80px;
+    width: 64px;
+    float: left;
+    margin: 0 24px 0 0;
+}
+.app.last {
+    margin: 0;
+}
+.app.small {
+    height: 30px;
+    width: 96px;
+    float: left;
+}
+.app img {
+    display: block;
+    margin: 0;
+}
+.app.small img {
+    float: left;
+}
+.app span {
+    color: #333;
+    display: block;
+    text-align: center;
+    width: 64px;
+}
+.app.small span {
+    text-align: left;
+    padding: 3px 0 0 30px;
+    width: auto;
+}
+.more {
+    color: #888;
+    display: block;
+    float: left;
+    margin: 0 0 0 24px;
+    padding: 5px 0 0;
+    width: 64px;
+    text-align:center;
+}
+.more:hover {
+    color: #666;
+}
+.hide {
+    display: none;
+}
